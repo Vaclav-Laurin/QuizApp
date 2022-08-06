@@ -1,0 +1,10 @@
+QuizApp is a simple app built using Tkinter, that quizes users with questions from Trivia.
+Each session starts with a freshly downloaded set of questions.
+
+Project structure:
+1) main.py - launching the entire app;
+2) data.py - uploading new set of data (question/answer pairs);
+3) question_model.py - architecture of a question_model class;
+4) quiz_brain.py - holds entire logic of the program;
+5) ui.py - creates UI of the app;
+6) scores.json - self-generating file to save user scores.
